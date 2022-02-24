@@ -1,13 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Application from './Application';
-import reportWebVitals from './reportWebVitals';
+import Application from "./Application";
+import reportWebVitals from "./reportWebVitals";
 
-ReactDOM.render(
+import React from "react";
+import { render } from "react-dom";
+
+render(
   <React.StrictMode>
     <Application />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root"),
 );
 
 // If you want to start measuring performance in your app, pass a function
