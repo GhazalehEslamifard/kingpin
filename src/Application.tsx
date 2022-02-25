@@ -1,11 +1,5 @@
-import React from 'react';
-
-function Application() {
-  return (
-    <div>
-      test
-    </div>
-  );
+function Application(): React.ReactElement {
+  return <div>test</div>;
 }
 
 export default Application;
